@@ -35,12 +35,39 @@ body {
   display: block;
 }
 
-.point {
-  height: 6px;
-  width: 6px;
-  background: #000;
-  border-radius: 50%;
-  position: absolute;
-  margin-left: -3px;
-  margin-top: -3px;
+#header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
 }
+
+#clear {
+  width: 100px;
+  height: 30px;
+  background: #3366cc;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  line-height: 30px;
+  margin-left: 50px;
+  transition: all ease .3s;
+}
+
+#clear:hover {
+  background: #ff9933;
+  cursor: pointer;
+}
+
+#colors {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.colorWrapper {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
