@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#canvas {
+  height: 100vh;
+  border: 1px solid red;
+}
+
+.point {
+  height: 6px;
+  width: 6px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -3px;
+  margin-top: -3px;
+}
